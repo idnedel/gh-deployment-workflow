@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout código
-        uses: actions/cheout@v4
+        uses: actions/checkout@v4
 
       - name: Configurar código
         uses: actions/configure-pages@v4
